@@ -1,0 +1,15 @@
+@import 'custom';
+@import "~bootswatch/dist/minty/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/minty/bootswatch";
+@mixin transform($property) {
+  -webkit-transform: $property;
+      -ms-transform: $property;
+          transform: $property;
+} 
+.carousel{
+	margin-top :4.3rem;
+}
+.list-group{
+	width: 25%;
+}
